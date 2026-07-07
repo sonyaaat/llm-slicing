@@ -1,0 +1,105 @@
+{
+  "cognitive_level": [
+    "preliminary_knowledge_grasp",
+    "comprehensive_knowledge_application",
+    "scenario_based_problem_solving",
+    "unclear"
+  ],
+  "reasoning_load": [
+    "direct",
+    "two_step",
+    "multi_step",
+    "unclear"
+  ],
+  "clinical_task_type": [
+    "diagnosis",
+    "differential_diagnosis",
+    "management_or_treatment",
+    "next_best_step",
+    "mechanism_or_pathophysiology",
+    "pharmacology_moa_or_adverse_effect",
+    "lab_or_test_interpretation",
+    "prevention_or_screening",
+    "risk_factor_or_prognosis",
+    "ethics_or_communication",
+    "biostatistics_or_epidemiology",
+    "anatomy_or_localization",
+    "microbiology_pathogen_identification",
+    "other",
+    "unclear"
+  ],
+  "knowledge_domain": [
+    "anatomy",
+    "physiology",
+    "pathology",
+    "pathophysiology",
+    "pharmacology",
+    "microbiology",
+    "immunology",
+    "biochemistry",
+    "genetics",
+    "biostatistics_epidemiology",
+    "ethics",
+    "clinical_medicine",
+    "surgery",
+    "psychiatry",
+    "obstetrics_gynecology",
+    "pediatrics",
+    "multidomain",
+    "unclear"
+  ],
+  "body_system": [
+    "cardiovascular",
+    "respiratory",
+    "gastrointestinal",
+    "renal_urinary",
+    "endocrine",
+    "neurologic",
+    "reproductive",
+    "hematology_oncology",
+    "infectious_disease",
+    "musculoskeletal",
+    "dermatology",
+    "psychiatry_behavioral",
+    "immune",
+    "multisystem",
+    "unclear"
+  ],
+  "evidence_type": [
+    "no_patient_vignette",
+    "symptoms_and_signs",
+    "labs_or_numeric_values",
+    "imaging_or_visual_reference",
+    "medication_or_treatment_history",
+    "timeline_or_progression",
+    "demographics_and_risk_factors",
+    "mixed_clinical_evidence",
+    "unclear"
+  ],
+  "vignette_length_level": [
+    "no_vignette",
+    "short",
+    "medium",
+    "long"
+  ],
+  "distractor_similarity_level": [
+    "low",
+    "medium",
+    "high",
+    "unclear"
+  ],
+  "domain_specificity_level": [
+    "common_core_knowledge",
+    "specialized_knowledge",
+    "rare_or_edge_case_knowledge",
+    "unclear"
+  ],
+  "usmle_step": [
+    "step1",
+    "step2_3"
+  ],
+  "requires_guideline_or_protocol_application": "boolean",
+  "requires_risk_benefit_or_contraindication_reasoning": "boolean",
+  "contains_negation_or_exception": "boolean",
+  "requires_calculation_or_formula": "boolean"
+}
